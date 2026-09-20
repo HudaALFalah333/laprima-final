@@ -1,0 +1,147 @@
+body {
+    background-image: url('white bachground.jpeg');
+    font-family: 'Lora', serif;
+    line-height: 1.8;
+    color: #333;
+    margin: 0px;
+    padding: 0;
+    padding-top: 6px;
+}
+  
+.hero-section {
+    text-align: center;
+    padding: 20px 0;
+    margin: 0px;
+    background-color: #fff;
+    border-bottom: 2px solid #ddd;
+}
+
+.hero-logo { 
+    max-width: 200px;
+    height: auto;
+}
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .thank-you-section {
+    margin: 300px auto;
+    padding: 20px;
+    max-width: 600px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .thank-you-message i {
+    font-size: 50px;
+    color: #4CAF50;
+    margin-bottom: 20px;
+  }
+  
+  .thank-you-message h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .thank-you-message p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .btn-home {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #000000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-home:hover {
+    background: #A76B5E;
+  }
+  .footer-contact p {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    margin: 10px 0;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+
+footer {
+    margin-top: auto; 
+    width: 100%; 
+    background-color: #fff; 
+    color: #000; 
+    padding: 40px 20px; 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: flex-start; 
+    box-sizing: border-box; 
+}
+
+footer div.column {
+    display: flex; 
+    flex-direction: column; 
+    gap: 15px; 
+    width: 20%; 
+}
+
+footer div.column h4 {
+    font-family: 'Playfair Display', serif;
+    color: #000; 
+    margin-bottom: 10px; 
+}
+
+footer div.column p,
+footer div.column a {
+    color: #C08A6C; 
+    font-size: 0.9em; 
+    text-decoration: none; 
+    margin: 0; 
+}
+
+footer div.column a:hover {
+    color: #000; 
+    text-decoration: underline; 
+}
+
+footer div.social-icons {
+    display: flex; 
+    gap: 10px; 
+}
+
+footer div.social-icons a {
+    color: #C08A6C; 
+    font-size: 1.5em; 
+    transition: transform 0.3s ease; 
+}
+
+footer div.social-icons a:hover {
+    transform: scale(1.2); 
+    color: #C08A6C;
+}
+
+
+@media (max-width: 823px) {
+    .thank-you-section {
+        max-width: 200px;
+    }
+}
